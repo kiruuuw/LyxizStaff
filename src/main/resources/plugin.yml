@@ -1,0 +1,22 @@
+name: LyxizStaff
+version: 1.0
+description: Plugin staff fais de la cadre d'un test pour le serveur Lyxiz.
+main: fr.kiruw.staff.Staff
+author: Kiruw
+api-version: 1.8
+commands:
+  staffchat:
+    description: Active ou désactive le chat du staff.
+    permission: lyxiz.staffchat
+  randomtp:
+    description: Permet de se téléporter a un joueur aléatoire.
+    usage: /randomtp <joueur>
+    permission: lyxiz.randomtp
+  lockchat:
+    description: Verrouille ou déverrouille le chat.
+    usage: /lockchat
+    permission: lyxiz.lockchat
+  staff:
+    description:
+    usage: /staff
+    permission: lyxiz.staff
